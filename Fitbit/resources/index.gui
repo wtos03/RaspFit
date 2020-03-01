@@ -1,0 +1,68 @@
+<svg>
+  
+  <text   y= "140" fill="red"  font-size="50" font-family="System-Regular">PORT</text>
+  <text id="porttype"  x = "250" y= "140" fill="red"  font-size="40" font-family="System-Regular">Digital</text>
+  
+   <!-- TUMBLER -->  
+    <use id="tumbler" href="#tumblerview" >  
+      <use id="item0" href="#tumbler-item" class="item">
+       <text id="content">01</text>
+      </use>
+      <use id="item1" href="#tumbler-item" class="item">
+        <text id="content">02</text>
+      </use>
+     <use id="item2" href="#tumbler-item" class="item">
+        <text id="content">03</text>
+      </use>
+      <use id="item3" href="#tumbler-item" class="item">
+        <text id="content">04</text>
+      </use>
+      <use id="item4" href="#tumbler-item" class="item">
+        <text id="content">05</text>
+      </use>
+      <use id="item5" href="#tumbler-item" class="item">
+        <text id="content">06</text>
+      </use>
+      <use id="item6" href="#tumbler-item" class="item">
+        <text id="content">07</text>
+      </use>
+      <use id="item7" href="#tumbler-item" class="item">
+        <text id="content">08</text>
+      </use>
+      <use id="item8" href="#tumbler-item" class="item">
+        <text id="content">09</text>
+      </use>
+      <use id="item9" href="#tumbler-item" class="item">
+        <text id="content">10</text>
+      </use>
+    </use>
+  
+  <!-- TOP RIGHT -->
+  <use id="btn-tr" href="#combo-button-upper-right" fill="fb-red">
+    <set href="combo-button-icon" attributeName="href" to="btn_play_p.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="btn_play_press_p.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+  <!-- BOTTOM RIGHT -->
+    <use id="btn-br" href="#combo-button-lower-right" fill="fb-peach">
+      <set href="combo-button-icon" attributeName="href" to="btn_pause_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="btn_pause_press_p.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+  
+  <!-- TOP LEFT -->
+  <use id="btn-tl" href="#combo-button-upper-left" fill="fb-red">
+    <set href="combo-button-icon" attributeName="href" to="btn_plus_p.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="btn_plus_p.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+  <!-- BOTTOM LEFT -->
+    <use id="btn-bl" href="#combo-button-lower-left" fill="fb-peach">
+      <set href="combo-button-icon" attributeName="href" to="btn_minus_p.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="btn_minus_p.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+  
+  </svg>

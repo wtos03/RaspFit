@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "c4722c41-66ed-4926-a815-8f1b5ccab3db",
+    "appType": "app",
+    "appDisplayName": "SocketIO",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_internet",
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "SocketIO"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
