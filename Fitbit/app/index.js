@@ -72,7 +72,7 @@ messaging.peerSocket.onmessage = function(evt) {
 
 messaging.peerSocket.onerror = function(err) {
   // Handle any errors
-  console.error(`ERROR: ${e`);
+  console.error(`ERROR: ${e}`);
 }
 
 
