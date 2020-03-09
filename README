@@ -1,4 +1,5 @@
 RPI  is the program for Raspberry Pi. I tested it on RPI 3
+Arduino is the Arduino project file for ESP8255 Node MCU.
 Fitbit is the program for Fitbit studion. I tested on Fitbit Ionic, but Versa should work as well.
 
 For more information go to https://www.instructables.com/id/Fitbit-Raspberry-Pi/
