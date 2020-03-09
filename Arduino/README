@@ -1,0 +1,18 @@
+For Arduino project. This project had been tested on ESP8266 Node MCU
+Digtail Port 1 = D0
+Digtail Port 2 = D1
+Digtail Port 3 = D2
+Digtail Port 4 = D3
+Digtail Port 5 = D4
+
+Analog Port 6   = D5
+Analog Port 7   = D6
+Analog Port 8   = D7
+Analog Port 9   = D8
+Analog Port 10  = D5
+Analog Port for Servo. For other devices, need to change program 
+
+Note
+====
+Set Socket IP address : port in Fitbit application setting before start
+
