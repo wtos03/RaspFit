@@ -23,8 +23,8 @@
 
 #define MIN  0
 #define MAX 180
-const char* ssid = "bkk-114"; //Enter SSID
-const char* password = "8e33fb2bf1"; //Enter Password
+const char* ssid = "SSID"; //Enter SSID
+const char* password = "Password"; //Enter Password
 
 using namespace websockets;
 
